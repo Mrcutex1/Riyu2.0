@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Aᴅᴅ ᴍᴇ",
+                text="🌹Aᴅᴅ ᴍᴇ🌹",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="Hᴇʟᴘ",
+                text="🌹Hᴇʟᴘ🌹",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="Sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="🌹Sᴇᴛᴛɪɴɢs🌹", callback_data="settings_helper"
             ),
         ],
      ]
