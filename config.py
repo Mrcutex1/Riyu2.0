@@ -21,12 +21,12 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/iButtu/AliaxMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/aashuxxD/AliaxMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/aliaassociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/aliaassociation")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/saykkunomusic")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/saykkunomusic")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/a08f8f7f5a72a2a98fcdf.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/cda96db5d9e67b6094f1b.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/a08f8f7f5a72a2a98fcdf.jpg",
+    "https://telegra.ph/file/cda96db5d9e67b6094f1b.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/a08f8f7f5a72a2a98fcdf.jpg"
