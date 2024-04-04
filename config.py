@@ -21,17 +21,17 @@ OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/aashuxxD/AliaxMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Mrcutex1/Riyu2.0")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/saykkunomusic")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/saykkunomusic")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+JoSPjg4d91QzMWNl")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "300"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "300"))
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -52,7 +52,7 @@ VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
 
-CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "12"))
+CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "60"))
 
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
